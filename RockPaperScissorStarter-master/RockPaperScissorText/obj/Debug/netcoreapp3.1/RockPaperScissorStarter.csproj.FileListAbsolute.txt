@@ -1,0 +1,13 @@
+C:\Users\mcelhinny_benjamin\Desktop\RockPaperScissorStarter-master\RockPaperScissorText\bin\Debug\netcoreapp3.1\RockPaperScissorStarter.exe
+C:\Users\mcelhinny_benjamin\Desktop\RockPaperScissorStarter-master\RockPaperScissorText\bin\Debug\netcoreapp3.1\RockPaperScissorStarter.deps.json
+C:\Users\mcelhinny_benjamin\Desktop\RockPaperScissorStarter-master\RockPaperScissorText\bin\Debug\netcoreapp3.1\RockPaperScissorStarter.runtimeconfig.json
+C:\Users\mcelhinny_benjamin\Desktop\RockPaperScissorStarter-master\RockPaperScissorText\bin\Debug\netcoreapp3.1\RockPaperScissorStarter.runtimeconfig.dev.json
+C:\Users\mcelhinny_benjamin\Desktop\RockPaperScissorStarter-master\RockPaperScissorText\bin\Debug\netcoreapp3.1\RockPaperScissorStarter.dll
+C:\Users\mcelhinny_benjamin\Desktop\RockPaperScissorStarter-master\RockPaperScissorText\bin\Debug\netcoreapp3.1\RockPaperScissorStarter.pdb
+C:\Users\mcelhinny_benjamin\Desktop\RockPaperScissorStarter-master\RockPaperScissorText\obj\Debug\netcoreapp3.1\RockPaperScissorStarter.csprojAssemblyReference.cache
+C:\Users\mcelhinny_benjamin\Desktop\RockPaperScissorStarter-master\RockPaperScissorText\obj\Debug\netcoreapp3.1\RockPaperScissorStarter.AssemblyInfoInputs.cache
+C:\Users\mcelhinny_benjamin\Desktop\RockPaperScissorStarter-master\RockPaperScissorText\obj\Debug\netcoreapp3.1\RockPaperScissorStarter.AssemblyInfo.cs
+C:\Users\mcelhinny_benjamin\Desktop\RockPaperScissorStarter-master\RockPaperScissorText\obj\Debug\netcoreapp3.1\RockPaperScissorStarter.csproj.CoreCompileInputs.cache
+C:\Users\mcelhinny_benjamin\Desktop\RockPaperScissorStarter-master\RockPaperScissorText\obj\Debug\netcoreapp3.1\RockPaperScissorStarter.dll
+C:\Users\mcelhinny_benjamin\Desktop\RockPaperScissorStarter-master\RockPaperScissorText\obj\Debug\netcoreapp3.1\RockPaperScissorStarter.pdb
+C:\Users\mcelhinny_benjamin\Desktop\RockPaperScissorStarter-master\RockPaperScissorText\obj\Debug\netcoreapp3.1\RockPaperScissorStarter.genruntimeconfig.cache
