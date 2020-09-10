@@ -100,7 +100,7 @@ namespace RockPaperScissorText
                     rpsComputerPlays = "Paper";
                     break;
                 case 1:
-                    Console.WriteLine($"PC chose a {computerRPSRandomNum}. That is equal to Rock");
+                    Console.WriteLine($"PC chose a {computerRPSRandomNum}. That is equal to Scissors");
                     rpsComputerPlays = "Scissors";
                     break;
             }
@@ -109,44 +109,52 @@ namespace RockPaperScissorText
 
             switch (playerRPSChoice)
             {
-                case "R":
+                case "r":
                     Console.WriteLine("you chose rock.");
+                    playerRPSNumValue = 1;
                     break;
 
-                case "P":
+                case "p":
                     Console.WriteLine("you chose Paper.");
+                    playerRPSNumValue = 2;
                     break;
 
-                case "S":
+                case "s":
                     Console.WriteLine("you chose Scissors.");
+                    playerRPSNumValue = 3;
                     break;
 
                 default:
+                   // Console.WriteLine("something went wrong, try again later");
                     break;
             } 
 
 
             WinnerLoserLogic();
 
+
+            // TODO: Add a Switch Statement to ask the player if they want to play again. If yes, call the method "RPSChoices();" if no, exit the program.
             Console.WriteLine("Would you like to play again? 'Y' for Yes, 'N' for No.");
             string playAgain = Console.ReadLine().ToLower();
-            // TODO: Add a Switch Statement to ask the player if they want to play again. If yes, call the method "RPSChoices();" if no, exit the program.
+
 
             switch (playAgain)
             {
-                case "Y":
+                case "y":
                     Console.WriteLine("good luck!");
                     RPSChoices();
                     break;
 
 
-                case "N":
+                case "n":
                     Console.WriteLine("okay, see you soon!");
-                    break;
+                    return;
 
 
                 default:
-                    break;
+                    // Console.WriteLine("something broke itself, sorry");
+
+                    return;
             }
         }
 
@@ -157,12 +165,72 @@ namespace RockPaperScissorText
 
             // TODO: Add logic to determine the winner between the player and computer. You may use either an Else If Statement or Switch Statement to do it. 
 
-            switch (playerRPSChoice)
+            switch (computerRPSRandomNum)
             {
-               
+                case 1:
+                    switch (playerRPSNumValue)
+                    {
+                        case 1:
+                            Console.WriteLine("you win!");
+                            yourScore++;
+                            break;
+
+                        case 2:
+                            Console.WriteLine("you lose!");
+                            yourScore--;
+                            break;
+
+                        case 3:
+                            Console.WriteLine("it's a tie!");
+                            break;
+
+                    }
+                    break;
+
+                case 2:
+                    switch (playerRPSNumValue)
+                    {
+                        case 1:
+                            Console.WriteLine("you lose!");
+                            yourScore--;
+                            break;
+
+                        case 2:
+                            Console.WriteLine("it's a tie!");
+                            break;
+
+                        case 3:
+                            Console.WriteLine("you win");
+                            yourScore++;
+                            break;
+
+                    }
+                    break;
+
+                case 3:
+                    switch (playerRPSNumValue)
+                    {
+                        case 1:
+                            Console.WriteLine("it's a tie!");
+                            break;
+
+                        case 2:
+                            Console.WriteLine("you lose!");
+                            yourScore--;
+                            break;
+
+                        case 3:
+                            Console.WriteLine("You win!");
+                            yourScore++;
+                            break;
+
+                    }
+                    break;
 
 
-               
+                default:
+                    Console.WriteLine("Something went wrong, try again later");
+                    break;
             }
 
 
@@ -173,7 +241,7 @@ namespace RockPaperScissorText
 
             // TODO: based on whether the player wins or loses, increment or decrement the variable "yourScore". This will be ++yourScore if they win or --yourScore if they lose. If it is a tie, there should be no change. 
 
-
+          
         }
     }
 }
